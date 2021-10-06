@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/141284/the-difference-between-the-runnable-and-callable-interfaces-in-java
+
+https://stackoverflow.com/questions/30080855/difference-between-spring-and-spring-boot/30081247
+
+
+

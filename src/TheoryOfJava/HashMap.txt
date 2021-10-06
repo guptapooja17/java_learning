@@ -1,0 +1,15 @@
+Java HashMap is a Key-Value Pair implementation that implements Map interface and It works similar to Hash Table.
+
+•As I mentioned above, Java HashMap is a Key-Value pair Java Map interface, which is used to store the Objects as values and those objects should have Keys to identify them.
+•it does not guarantee the Insertion Order of elements or items into Hash Map.
+•Java HashMap cannot have duplicate keys but it can have duplicates as values.
+•Hash Map can have only one NULL key and multiple NULL Values.
+•The Order in which, We add the values to HashMap is not guaranteed, hence the Insertion order is not Preserved.
+•Searching the Object is fast since the Java HashMap has the Keys.
+•HashMap is not good for Multi-threading because it does not support Synchronization.
+
+•HashMap keys are immutable (only immutable keys are  allowed)
+
+Performance of HashMap depends on 2 parameters: 
+•Initial Capacity – It is the capacity of HashMap at the time of its creation (It is the number of buckets a HashMap can hold when the HashMap is instantiated). In java, it is 2^4=16 initially, meaning it can hold 16 key-value pairs. 
+•Load Factor – It is the percent value of the capacity after which the capacity of Hashmap is to be increased (It is the percentage fill of buckets after which Rehashing takes place). In java, it is 0.75f by default, meaning the rehashing takes place after filling 75% of the capacity. 
